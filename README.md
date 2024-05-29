@@ -7,11 +7,12 @@ Caution!! I've had only used my custom module on my device a Xiaomi, using on ot
 
 Module includs
 +GPU OVERCLOCK
-+CPU OVERCLOCK (All Cores)
-+HEAP OPTIMIZATION
++CPU OVERCLOCK (Set to "performance" Governor on Default) 
+-NOTE: CAN BE CHANGED EDITING THE "service.sh" FILE ON LINE NO.132,133)
++MEMORY ALLOCATIONS OPTIMIZATION (Heap Size)
 +PEAK DISPLAY FPS (Xiaomi Only)
 +STOP THERMAL SERVICE
-+MEMORY READ SPEED UP
++MEMORY READ SPEED UP (Set to 3072kbs)
 +FSTRIM PARTITIONS EVERY REBOOT
 +DISABLE I/O STATS
 +FORCE ALL CPUS TO UTILIZE ON GAMEs
