@@ -176,29 +176,6 @@ echo "0" > /sys/block/loop28/queue/iostats
 echo "0" > /sys/block/loop29/queue/iostats
 echo "0" > /sys/block/loop30/queue/iostats
 
-echo "NO_GENTLE_FAIR_SLEEPERS:1" > /sys/kernel/debug/sched_features
-echo "START_DEBIT:1" > /sys/kernel/debug/sched_features
-echo "NEXT_BUDDY:1" > /sys/kernel/debug/sched_features
-echo "LAST_BUDDY:1" > /sys/kernel/debug/sched_features
-echo "STRICT_SKIP_BUDDY:1" > /sys/kernel/debug/sched_features
-echo "CACHE_HOT_BUDDY:1" > /sys/kernel/debug/sched_features
-echo "WAKEUP_PREEMPTION:1" > /sys/kernel/debug/sched_features
-echo "NO_HRTICK:1" > /sys/kernel/debug/sched_features
-echo "NO_DOUBLE_TICK:1" > /sys/kernel/debug/sched_features
-echo "LB_BIAS:1" > /sys/kernel/debug/sched_features
-echo "NONTASK_CAPACITY:1" > /sys/kernel/debug/sched_features
-echo "NO_TTWU_QUEUE:1" > /sys/kernel/debug/sched_features
-echo "NO_SIS_AVG_CPU:1" > /sys/kernel/debug/sched_features
-echo "RT_PUSH_IPI:1" > /sys/kernel/debug/sched_features
-echo "NO_FORCE_SD_OVERLAP:1" > /sys/kernel/debug/sched_features
-echo "NO_RT_RUNTIME_SHARE:1" > /sys/kernel/debug/sched_features
-echo "NO_LB_MIN:1" > /sys/kernel/debug/sched_features
-echo "ATTACH_AGE_LOAD:1" > /sys/kernel/debug/sched_features
-echo "ENERGY_AWARE:1" > /sys/kernel/debug/sched_features
-echo "NO_MIN_CAPACITY_CAPPING:1" > /sys/kernel/debug/sched_features
-echo "NO_FBT_STRICT_ORDER:1" > /sys/kernel/debug/sched_features
-echo "EAS_USE_NEED_IDLE:1" > /sys/kernel/debug/sched_features
-
 echo '3072' > /sys/block/ram0/queue/read_ahead_kb
 echo '3072' > /sys/block/ram1/queue/read_ahead_kb
 echo '3072' > /sys/block/ram2/queue/read_ahead_kb
